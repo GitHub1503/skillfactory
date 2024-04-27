@@ -24,7 +24,7 @@ else:
             return searching_elements(array, element, middle + 1, right)
 
 
-    print('Список отсортированный по возрастанию', sorting_elements(array))
+    print(f'Список отсортированный по возрастанию {sorting_elements(array)}')
     left = array[0]
     right = array[-1]
     if element < left or element > right:
